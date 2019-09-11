@@ -1,5 +1,5 @@
 import unittest
-from main_wrapping import Grid
+from main import Grid
 import time
 
 class testPulsar(unittest.TestCase):

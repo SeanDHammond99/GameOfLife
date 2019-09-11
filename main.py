@@ -12,7 +12,8 @@ class Grid(object):
             self.grid.append(line)
 
     def print(self):
-        os.system("cls")
+        print("\n"*30)
+        print("\033[2J\033[H",end="")
         for line in  range(len(self.grid)):
             stringline=""
             for ele in self.grid[line]:
